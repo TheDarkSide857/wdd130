@@ -15,6 +15,13 @@ p {
     font-size: 16px;
     color: var(--accent1-color);
 }
+sociallinks {
+    text-decoration: none;
+}
+footer img {
+    width: 400px;
+    height: auto;
+}
 article {
     position: absolute;
     background-color: var(--accent2-color);
@@ -22,13 +29,6 @@ article {
 }
 article img {
     float: right;
-}
-sociallinks {
-    text-decoration: none;
-}
-footer img {
-    width: 400px;
-    height: auto;
 }
 div {
     position: relative;
