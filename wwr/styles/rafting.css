@@ -27,15 +27,10 @@ article {
     height: auto;
     border: 1px var(--primary-color);
     padding: 2px;
-    box-shadow: var(--secondary-color);
+    box-shadow: 20%;
     position: absolute;
     background-color: var(--accent2-color);
     opacity: 60%;
-    object-fit: hero img;
-    img {
-        float: right;
-        object-fit: article;
-    }
 }
 article img {
     float: right;
