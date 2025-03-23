@@ -7,7 +7,7 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: var(--accent2-color);
+    color: hex(#5ABCE6);
     position: absolute;
 }
 img {
@@ -17,12 +17,12 @@ img {
 p {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    color: var(--accent1-color);
+    color: hex(#989997);
 }
 article {
     position: absolute;
-    background-color: var(--accent2-color);
-    opacity: var(--accent1-color);
+    background-color: hex(#5ABCE6);
+    opacity: hex(#989997);
 }
 article img {
     float: right;
