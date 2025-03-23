@@ -10,10 +10,6 @@ h1 {
     color: var(--accent2-color);
     position: absolute;
 }
-img {
-    width: 100px;
-    height: auto;
-}
 p {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
@@ -29,6 +25,10 @@ article img {
 }
 sociallinks {
     text-decoration: none;
+}
+footer img {
+    width: 400px;
+    height: auto;
 }
 div {
     position: relative;
