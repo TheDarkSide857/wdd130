@@ -1,8 +1,8 @@
 :root { 
-    --primary-color: hex(#5994D4);
-    --secondary-color: hex(#FFFFFF);
-    --accent1-color: hex(#989997);
-    --accent2-color: hex(#5ABCE6);
+    --primary-color: hex(5994D4);
+    --secondary-color: hex(FFFFFF);
+    --accent1-color: hex(989997);
+    --accent2-color: hex(5ABCE6);
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
