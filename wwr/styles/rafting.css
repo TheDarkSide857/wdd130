@@ -27,7 +27,6 @@ article {
     height: auto;
     border: 1px var(--primary-color);
     padding: 2px;
-    box-shadow: 20;
     position: absolute;
     background-color: var(--accent2-color);
     opacity: 60%;
