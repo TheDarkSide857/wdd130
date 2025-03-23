@@ -19,13 +19,23 @@ sociallinks {
     text-decoration: none;
 }
 footer img {
-    width: 400px;
+    width: 200px;
     height: auto;
 }
 article {
+    width: 150px;
+    height: auto;
+    border: 1px var(--primary-color);
+    padding: 2px;
+    box-shadow: var(--secondary-color);
     position: absolute;
     background-color: var(--accent2-color);
     opacity: 60%;
+    object-fit: hero img;
+    img {
+        float: right;
+        object-fit: article;
+    }
 }
 article img {
     float: right;
@@ -33,7 +43,7 @@ article img {
 div {
     position: relative;
 }
-div img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
