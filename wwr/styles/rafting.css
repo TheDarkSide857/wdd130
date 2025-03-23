@@ -1,13 +1,13 @@
 :root { 
-    --primary-color: hex(5994D4);
-    --secondary-color: hex(FFFFFF);
-    --accent1-color: hex(989997);
-    --accent2-color: hex(5ABCE6);
+    --primary-color: #5994d4;
+    --secondary-color: #ffffff;
+    --accent1-color: #989997;
+    --accent2-color: #5abce6;
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: hex(#5ABCE6);
+    color: var(--accent2-color);
     position: absolute;
 }
 img {
@@ -17,12 +17,12 @@ img {
 p {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    color: hex(#989997);
+    color: var(--accent1-color);
 }
 article {
     position: absolute;
-    background-color: hex(#5ABCE6);
-    opacity: hex(#989997);
+    background-color: var(--accent2-color);
+    opacity: 60%;
 }
 article img {
     float: right;
