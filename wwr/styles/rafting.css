@@ -1,0 +1,40 @@
+:root { 
+    --primary-color: hex(#5994D4);
+    --secondary-color: hex(#FFFFFF);
+    --accent1-color: hex(#989997);
+    --accent2-color: hex(#5ABCE6);
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: var(--accent2-color);
+    position: absolute;
+}
+img {
+    width: 100px;
+    height: auto;
+}
+p {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: var(--accent1-color);
+}
+article {
+    position: absolute;
+    background-color: var(--accent2-color);
+    opacity: var(--accent1-color);
+}
+article img {
+    float: right;
+}
+sociallinks {
+    text-decoration: none;
+}
+div {
+    position: relative;
+}
+div img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
