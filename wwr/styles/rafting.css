@@ -69,6 +69,10 @@ footer img {
     max-width: 220px;
     max-height: 150px;
 }
+h2 {
+	display: flex;
+	justify-content: center;
+}
 section {
 	display: flex;
 	flex-direction: row;
