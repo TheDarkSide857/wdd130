@@ -85,23 +85,22 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
-article {
-    margin: 1em auto;
-		border: 1px solid var(--primary-color);
-		padding: 1em;
-		background-color: var(--accent2-color);
-		width: min(600px, 100%);
-		font-size: 1.2rem;
-    opacity: 100%;
-}
-article img {
-		float: right;
-}
-div {
-    position: relative;
-}
 .hero-image {
     display: block;
     width: 100%;
     height: auto;
+}
+.hero-text {
+	align-content: center;
+	flex-direction: row;
+	margin: 1em auto;
+	border: 1px solid var(--primary-color);
+	padding: 1em;
+	background-color: var(--accent2-color);
+	width: min(600px, 100%);
+	font-size: 1.2rem;
+    opacity: 100%;
+}
+article img {
+		float: right;
 }
