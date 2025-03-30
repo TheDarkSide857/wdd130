@@ -81,7 +81,7 @@ section {
 figcaption {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
-    font: sans-serif, 'Helvetica Neue';
+    font: 'Helvetica Neue';
     padding: 3px;
     text-align: center;
 }
