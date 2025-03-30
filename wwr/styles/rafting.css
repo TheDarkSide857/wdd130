@@ -81,7 +81,7 @@ section {
 figcaption {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
-    font: italic small-caps bold Georgia, serif;
+    font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
 }
